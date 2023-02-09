@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">FormActivity</string>
+    <string name="prompt_message">Please complete the form</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="enter_email_address">Enter your email address</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="confirm_password">Confirm your password</string>
+    <string name="button">Save</string>
+    <string name="welcome">Welcome, %1$s</string>
+
+
+    <string-array name="majors">
+        <item>Choose your major</item>
+        <item>Computer Science</item>
+        <item>Physics</item>
+        <item>Data Science</item>
+        <item>Math</item>
+    </string-array>
 </resources>
