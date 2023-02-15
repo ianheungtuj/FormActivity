@@ -98,7 +98,7 @@ class FormActivity : AppCompatActivity() {
 
             if (spinnerIndex == 0) {
                 toastText = "Select a major"
-                val toast = Toast.makeText(applicationContext, toastText, duration)
+                val toast = Toast.makeText(this, toastText, duration)
                 toast.show()
             }
 
@@ -107,39 +107,39 @@ class FormActivity : AppCompatActivity() {
             if(currentName == ""){
                 missingInfo = true
                 toastText = "Missing name"
-                val toast = Toast.makeText(applicationContext, toastText, duration)
+                val toast = Toast.makeText(this, toastText, duration)
                 toast.show()
             }
 
             if(currentEmail == ""){
                 missingInfo = true
                 toastText = "Missing email"
-                val toast = Toast.makeText(applicationContext, toastText, duration)
+                val toast = Toast.makeText(this, toastText, duration)
                 toast.show()
             }
 
             if(currentPassword == ""){
                 missingInfo = true
                 toastText = "Missing password"
-                val toast = Toast.makeText(applicationContext, toastText, duration)
+                val toast = Toast.makeText(this, toastText, duration)
                 toast.show()
             }
 
             if(confirmPassword == ""){
                 missingInfo = true
                 toastText = "Please confirm password"
-                val toast = Toast.makeText(applicationContext, toastText, duration)
+                val toast = Toast.makeText(this, toastText, duration)
                 toast.show()
             }
 
             if(!passwordMatch){
                 toastText = "Renter password"
-                val toast = Toast.makeText(applicationContext, toastText, duration)
+                val toast = Toast.makeText(this, toastText, duration)
                 toast.show()
             }
 
             if(!missingInfo && passwordMatch){
-                output.text = getString(R.string.welcome, userName)
+                output.text = "Welcome " + currentName
             }
         }
 

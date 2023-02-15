@@ -6,7 +6,7 @@
     <string name="enter_password">Enter your password</string>
     <string name="confirm_password">Confirm your password</string>
     <string name="button">Save</string>
-    <string name="welcome">Welcome, %1$s</string>
+
 
 
     <string-array name="majors">
